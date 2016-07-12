@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="91b-f6-aRf">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="iE0-Vj-46k">
+            <objects>
+                <viewController id="z3y-RU-APo" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eUG-jc-cey"/>
+                        <viewControllerLayoutGuide type="bottom" id="XXL-82-ItF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Mib-6Q-mTg">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7JB-OB-BaD">
+                                <rect key="frame" x="180" y="162" width="240" height="128"/>
+                                <color key="backgroundColor" red="0.33594208419999999" green="0.9047833757" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="camactive (1)" id="h18-Hg-gB5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pN7-xZ-Orc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-587" y="-6"/>
+        </scene>
+        <!--Collection View Controller-->
+        <scene sceneID="ATh-48-Nrr">
+            <objects>
+                <collectionViewController id="XM7-Hh-RDR" customClass="CollectionViewController" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="E2j-bV-Bwv">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="QXx-tv-rYi">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="MnV-Rb-Gd0">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="XM7-Hh-RDR" id="tgZ-ah-kKW"/>
+                            <outlet property="delegate" destination="XM7-Hh-RDR" id="f06-Fi-HJI"/>
+                        </connections>
+                    </collectionView>
+                    <tabBarItem key="tabBarItem" title="" image="homeactive" id="BCy-fu-MEa"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PZu-ZO-OeA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-667" y="-776"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="ITd-cg-wsR">
+            <objects>
+                <tabBarController id="91b-f6-aRf" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="VZv-aw-p6b">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="XM7-Hh-RDR" kind="relationship" relationship="viewControllers" id="04b-On-7aw"/>
+                        <segue destination="z3y-RU-APo" kind="relationship" relationship="viewControllers" id="itz-EG-HNM"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zMX-TP-MPc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1393" y="-515"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="camactive (1)" width="32" height="32"/>
+        <image name="homeactive" width="32" height="32"/>
+    </resources>
+</document>

@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48E4C5B98308D8334D476D51 /* libPods-Camera and Cloud.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76F3083B31B09668C55D713A /* libPods-Camera and Cloud.a */; };
+		53198EA31D3009E90013A10B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53198EA21D3009E90013A10B /* main.m */; };
+		53198EA61D3009E90013A10B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53198EA51D3009E90013A10B /* AppDelegate.m */; };
+		53198EA91D3009E90013A10B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53198EA81D3009E90013A10B /* ViewController.m */; };
+		53198EAC1D3009E90013A10B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53198EAA1D3009E90013A10B /* Main.storyboard */; };
+		53198EAE1D3009E90013A10B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53198EAD1D3009E90013A10B /* Assets.xcassets */; };
+		53198EB11D3009E90013A10B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53198EAF1D3009E90013A10B /* LaunchScreen.storyboard */; };
+		5379DA391D3055BB005FEE80 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5379DA381D3055BB005FEE80 /* GoogleService-Info.plist */; };
+		5379DA411D344425005FEE80 /* photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5379DA401D344425005FEE80 /* photo.jpg */; };
+		5379DA431D345808005FEE80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5379DA421D345808005FEE80 /* UIKit.framework */; };
+		5379DA461D355596005FEE80 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5379DA451D355596005FEE80 /* CollectionViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F18BD76D3B03E83C778F18A /* Pods-Camera and Cloud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Camera and Cloud.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Camera and Cloud/Pods-Camera and Cloud.debug.xcconfig"; sourceTree = "<group>"; };
+		53198E9E1D3009E90013A10B /* Camera and Cloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Camera and Cloud.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53198EA21D3009E90013A10B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53198EA41D3009E90013A10B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		53198EA51D3009E90013A10B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		53198EA71D3009E90013A10B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		53198EA81D3009E90013A10B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		53198EAB1D3009E90013A10B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53198EAD1D3009E90013A10B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53198EB01D3009E90013A10B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53198EB21D3009E90013A10B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5379DA381D3055BB005FEE80 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5379DA401D344425005FEE80 /* photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = photo.jpg; path = "Assets.xcassets/@3x/photo_01.imageset/photo.jpg"; sourceTree = "<group>"; };
+		5379DA421D345808005FEE80 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5379DA441D355596005FEE80 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		5379DA451D355596005FEE80 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		76F3083B31B09668C55D713A /* libPods-Camera and Cloud.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Camera and Cloud.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5C8F0E6EF3BEC27F9E845D5 /* Pods-Camera and Cloud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Camera and Cloud.release.xcconfig"; path = "Pods/Target Support Files/Pods-Camera and Cloud/Pods-Camera and Cloud.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53198E9B1D3009E90013A10B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5379DA431D345808005FEE80 /* UIKit.framework in Frameworks */,
+				48E4C5B98308D8334D476D51 /* libPods-Camera and Cloud.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53198E951D3009E90013A10B = {
+			isa = PBXGroup;
+			children = (
+				53198EA01D3009E90013A10B /* Camera and Cloud */,
+				53198E9F1D3009E90013A10B /* Products */,
+				D5BF43D9E49EFF7E17B048DD /* Pods */,
+				78F9787F1DC5B4DF93A55E58 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		53198E9F1D3009E90013A10B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53198E9E1D3009E90013A10B /* Camera and Cloud.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53198EA01D3009E90013A10B /* Camera and Cloud */ = {
+			isa = PBXGroup;
+			children = (
+				53198EA41D3009E90013A10B /* AppDelegate.h */,
+				53198EA51D3009E90013A10B /* AppDelegate.m */,
+				5379DA401D344425005FEE80 /* photo.jpg */,
+				5379DA441D355596005FEE80 /* CollectionViewController.h */,
+				5379DA451D355596005FEE80 /* CollectionViewController.m */,
+				53198EA71D3009E90013A10B /* ViewController.h */,
+				53198EA81D3009E90013A10B /* ViewController.m */,
+				53198EAA1D3009E90013A10B /* Main.storyboard */,
+				53198EAD1D3009E90013A10B /* Assets.xcassets */,
+				53198EAF1D3009E90013A10B /* LaunchScreen.storyboard */,
+				5379DA381D3055BB005FEE80 /* GoogleService-Info.plist */,
+				53198EB21D3009E90013A10B /* Info.plist */,
+				53198EA11D3009E90013A10B /* Supporting Files */,
+			);
+			path = "Camera and Cloud";
+			sourceTree = "<group>";
+		};
+		53198EA11D3009E90013A10B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53198EA21D3009E90013A10B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78F9787F1DC5B4DF93A55E58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5379DA421D345808005FEE80 /* UIKit.framework */,
+				76F3083B31B09668C55D713A /* libPods-Camera and Cloud.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5BF43D9E49EFF7E17B048DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F18BD76D3B03E83C778F18A /* Pods-Camera and Cloud.debug.xcconfig */,
+				A5C8F0E6EF3BEC27F9E845D5 /* Pods-Camera and Cloud.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53198E9D1D3009E90013A10B /* Camera and Cloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53198EB51D3009E90013A10B /* Build configuration list for PBXNativeTarget "Camera and Cloud" */;
+			buildPhases = (
+				F375CD3E4D90DC0F373FC88B /* [CP] Check Pods Manifest.lock */,
+				53198E9A1D3009E90013A10B /* Sources */,
+				53198E9B1D3009E90013A10B /* Frameworks */,
+				53198E9C1D3009E90013A10B /* Resources */,
+				C1BE44EB7D87103EFF197B3B /* [CP] Embed Pods Frameworks */,
+				084BA7772B510418D650BDCF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Camera and Cloud";
+			productName = "Camera and Cloud";
+			productReference = 53198E9E1D3009E90013A10B /* Camera and Cloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53198E961D3009E90013A10B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Clyff IOS supercompany";
+				TargetAttributes = {
+					53198E9D1D3009E90013A10B = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = B593V95HNX;
+					};
+				};
+			};
+			buildConfigurationList = 53198E991D3009E90013A10B /* Build configuration list for PBXProject "Camera and Cloud" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53198E951D3009E90013A10B;
+			productRefGroup = 53198E9F1D3009E90013A10B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53198E9D1D3009E90013A10B /* Camera and Cloud */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53198E9C1D3009E90013A10B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53198EB11D3009E90013A10B /* LaunchScreen.storyboard in Resources */,
+				5379DA391D3055BB005FEE80 /* GoogleService-Info.plist in Resources */,
+				5379DA411D344425005FEE80 /* photo.jpg in Resources */,
+				53198EAE1D3009E90013A10B /* Assets.xcassets in Resources */,
+				53198EAC1D3009E90013A10B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		084BA7772B510418D650BDCF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Camera and Cloud/Pods-Camera and Cloud-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1BE44EB7D87103EFF197B3B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Camera and Cloud/Pods-Camera and Cloud-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F375CD3E4D90DC0F373FC88B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53198E9A1D3009E90013A10B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5379DA461D355596005FEE80 /* CollectionViewController.m in Sources */,
+				53198EA91D3009E90013A10B /* ViewController.m in Sources */,
+				53198EA61D3009E90013A10B /* AppDelegate.m in Sources */,
+				53198EA31D3009E90013A10B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		53198EAA1D3009E90013A10B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53198EAB1D3009E90013A10B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53198EAF1D3009E90013A10B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53198EB01D3009E90013A10B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53198EB31D3009E90013A10B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		53198EB41D3009E90013A10B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53198EB61D3009E90013A10B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F18BD76D3B03E83C778F18A /* Pods-Camera and Cloud.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Camera and Cloud/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "clyff-super-ios-company.Camera-and-Cloud";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		53198EB71D3009E90013A10B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5C8F0E6EF3BEC27F9E845D5 /* Pods-Camera and Cloud.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Camera and Cloud/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "clyff-super-ios-company.Camera-and-Cloud";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53198E991D3009E90013A10B /* Build configuration list for PBXProject "Camera and Cloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53198EB31D3009E90013A10B /* Debug */,
+				53198EB41D3009E90013A10B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53198EB51D3009E90013A10B /* Build configuration list for PBXNativeTarget "Camera and Cloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53198EB61D3009E90013A10B /* Debug */,
+				53198EB71D3009E90013A10B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53198E961D3009E90013A10B /* Project object */;
+}
